@@ -13,6 +13,7 @@ TypeScript cannot handle type information for `.vue` imports by default, so we r
 ## Customize configuration
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
+See [Vue Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Project Setup
 
@@ -20,10 +21,42 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 yarn
 ```
 
+## CLONING THE PROJECT
+
+```sh
+git clone https://github.com/ahuagodwin/frontend-learning-hub.git
+```
+
+## CHECKOUT OR SWITCH TO THE BRANCH
+
+```sh
+git switch master
+```
+
 ### Compile and Hot-Reload for Development
 
 ```sh
 yarn dev
+```
+
+### START THE JSON-SERVER
+
+```sh
+json-server --watch db.json
+```
+
+### ACCESSING THE LEARNING HUB FOR USER 1
+
+```sh
+username: demo
+password: demo
+```
+
+### ACCESSING THE LEARNING HUB FOR USER 2
+
+```sh
+username: demo
+password: demo
 ```
 
 ### Type-Check, Compile and Minify for Production
