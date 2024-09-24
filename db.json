@@ -213,15 +213,15 @@
   ],
 
   "users": [
-    { "id": "1", "username": "godwin", "password": "godwin" },
-    { "id": "2", "username": "emmanuel", "password": "emmanuel" }
+    { "id": "1", "username": "demo", "password": "demo" },
+    { "id": "2", "username": "demo", "password": "demo" }
   ],
   "usersDetails": [
     {
       "id": "1",
-      "name": "Godwin Ahua",
-      "email": "godwin@godwin.com",
-      "username": "godwin",
+      "name": "Godwin Test",
+      "email": "test@test.com",
+      "username": "demo",
       "lastLogin": "2024-09-20T10:45:00Z",
       "enrolledCourses": [1],
       "role": "Snr Front End Dev.",
@@ -230,9 +230,9 @@
     },
     {
       "id": "2",
-      "name": "Emmanuel",
-      "email": "emmanuel@godwin.com",
-      "username": "emmanuel",
+      "name": "Emmanuel Test",
+      "email": "test@test.com",
+      "username": "demo",
       "lastLogin": "2024-09-20T10:45:00Z",
       "role": "Project Manager",
       "enrolledCourses": [2],
